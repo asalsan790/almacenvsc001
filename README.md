@@ -53,8 +53,11 @@ Estamos estudiando las ramas con:
 https://git-scm.com/book/es/v2
 https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F
 
+Para ver a donde apunta cada rama:
 
+git log --oneline --decorate
 
+Marcaremos los commit con paso nnn
 
 ---
 
