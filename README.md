@@ -1,8 +1,9 @@
 # Almacenvsc001
 # Iniciar proyecto Angular
-Una vez instalado nodejs y
+Basado en:
+https://angular.io/start
 
-angular global con:
+Una vez instalado nodejs y angular global con:
 
 npm install -g @angular/cli
 
@@ -11,6 +12,39 @@ se ejecuta:
 ng new <nombre>
 
 en nuestro caso "almacenvsc001"
+
+---
+
+Crear un nuevo componente:
+ng generate component <name> [options]
+
+ng generate component top-bar
+
+Borror el contenido original de app.component.html
+y pongo el que tenemos ahora.
+Lo mismo con el archivo top-bar.component.html
+Lo mismo con el archivo styles.css que es el de estilos global
+
+
+
+
+
+
+
+---
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/asalsan790/almacenvsc001.git
+git push -u origin main
+
+Estamos estudiando las ramas con:
+https://git-scm.com/book/es/v2
+https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F
+
+
 
 
 ---
