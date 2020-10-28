@@ -25,12 +25,21 @@ y pongo el que tenemos ahora.
 Lo mismo con el archivo top-bar.component.html
 Lo mismo con el archivo styles.css que es el de estilos global
 
+Al archivo Index.html añadir:
+  <link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+Para que reconozca el icono del carrito en el archivo top-bar.components.html:
 
+  <a class="button fancy-button"><i 
+    class="material-icons">shopping_cart</i>Checkout</a>
 
+Si ahora ejecutamos el servidor:
 
+ng serve 
 
-
-
+podemos ver el resultado.
 ---
 
 git init
