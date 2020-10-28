@@ -57,7 +57,13 @@ Para ver a donde apunta cada rama:
 
 git log --oneline --decorate
 
-Marcaremos los commit con paso nnn
+Marcaremos los commit con "paso nnn" para poder volver.
+
+para crear una rama git branch <nombre>
+
+para ver las ramas git branch
+
+para cambiar de rama git checkout <nombre>
 
 ---
 
